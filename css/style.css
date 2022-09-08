@@ -140,9 +140,9 @@ ul,li{
 
 .menu>ul>li>a{
     padding:0 10px ;
-    color: gray;
+    color: rgba(172, 168, 168, 0.667);
     text-decoration: none;
-    transition: 1s;
+    transition: 0.25s;
  
 }  
 
@@ -208,6 +208,18 @@ p{
     color:black
 }
 
+.origin>.menu>.first-list>li>.secend-list #li{
+    color: #5b7f9f;
+}
+.origin>.menu>.first-list>li>.secend-list li{
+    text-align: justify;
+}
+
+.origin>.menu>.first-list>li>.secend-list #li2:hover{
+    background-color: #99abb9;
+    align-items: flex-start;
+}
+
 /* استایل بک گراند ایمیج header */
 .parent{
     /* padding-top:100px; */
@@ -258,10 +270,24 @@ p{
     border-radius: 3px;
     top: 30px;
     position: absolute;
-    top: 300px
+    top: 300px;
+    transition: 0.5s;
     
     
 }
+.parent>.parent2>.buttom1:hover{
+    border: 2px solid blue;
+    background-color: #6786a12d;
+
+   
+}
+.parent>.parent2>.buttom2:hover{
+    border: 2px solid blue;
+    background-color: #6786a100;
+    
+}
+
+
 .parent>.parent2>button a{
     text-decoration: none;
 }
@@ -275,7 +301,8 @@ p{
     top: 30px;
     position: absolute;
     top: 300px;
-    left: 200px
+    left: 200px;
+    transition: 0.5s;
    
 }
 .parent>.parent2>.buttom1>a{
@@ -929,8 +956,8 @@ footer{
 #name, #e-mail, button{
     width: 183px;
     height: 47px;
-    background-color: #285b8892;
-    border: 1px solid white   ;
+    background-color: #285b8822;
+    border: 2px solid rgb(85, 103, 167)   ;
     color: white;
 }
 footer>.footer>.box>input{
@@ -1226,5 +1253,7 @@ footer>.information>.data{
     color:rgb(39, 88, 128);
 
     }
-    
+    .origin{
+        display: none;
+    }
 }
