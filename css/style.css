@@ -629,20 +629,23 @@ main>.recent{
     overflow: hidden;
     
 }
+
+.item5{
+    background:url(../image/woman3-450x450.jpg) center center;
+    background-size: cover;
+}
+
 .item5>.box3{
     width: 200px;
     height: 190px;
     background: rgba(244, 244, 244, 0);
-    transform: translate(0 ,-210px);
+    transform: translate(0 ,-100%);
     padding-bottom: 20px;
    transition: 0.5s;
 
 }
 
-.item5>.box3:hover{
-    background: url(../image/man1-450x450.jpg) center center;
-    background-size: cover;
-}
+
 
 
 
@@ -663,12 +666,15 @@ main>.recent{
     width: 200px;
     height: 190px;
     background: rgba(244, 244, 244, 0);
-    transform: translate(10%,-216px);
+    transform: translate(10%,-16px);
     padding-bottom: 20px;
     transition: 0.5s;
 
 }
-.item10>.box10:hover{
+
+
+
+.item10{
     background: url(../image/woman4-450x450.jpg) center center;
     background-size: cover;
 }
