@@ -17,7 +17,7 @@
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%,-40%) rotate(-44deg) ;
+   transform: translate(-110%,-30%) rotate(-90deg) ;
 
 }
 .scorol>.scroll-top-link{
@@ -809,7 +809,7 @@ main>.recent{
     height: 30px;
   
 }
-.icontext>.child>.childof1>::after{
+.icontext>.child>.childof1>#text1::after{
     content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.';
     display: inline-block;
     color: gray;
@@ -832,7 +832,7 @@ main>.recent{
     width:30px;
     height: 30px;
 }
-.icontext>.child>.childof2>::after{
+.icontext>.child>.childof2>#text2::after{
     content: 'Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';
     display: inline-block;
     color: gray;
@@ -853,7 +853,7 @@ main>.recent{
     width:30px;
     height: 30px;
 }
-.icontext>.child>.childof3>::after{
+.icontext>.child>.childof3>#text3::after{
     content: 'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.';
     display: inline-block;
     color: gray;
@@ -874,7 +874,7 @@ main>.recent{
     width:30px;
     height: 30px;
 }
-.icontext>.child>.childof4>::after{
+.icontext>.child>.childof4>#text4::after{
     content: 'Enean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus.';
     display: inline-block;
     color: gray;
@@ -882,68 +882,6 @@ main>.recent{
 }  
 
 
-/* دایره ها*/
-
-.icontext>.child>.childof3>::before{
-    content: '';
-    display: inline-block;
-    border: 2px solid #babec1;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-   align-items: center;
-    transform: translate(-75px,-15px);
-    color: gray;
-    
-    
-}
-
-.icontext>.child>.childof2>::before{
-    content: '';
-    display: inline-block;
-    border: 2px solid #babec1;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-   align-items: center;
-    transform: translate(-75px,-15px);
-    color: gray;
-    
-    
-}
-
-.icontext>.child>.childof1>::before{
-    content: '';
-    display: inline-block;
-    border: 2px solid #babec1;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-   align-items: center;
-    transform: translate(-75px,-15px);
-    color: gray;
-
-    
-    
-}
-
-.icontext>.child>.childof4>::before{
-    content: '';
-    display: inline-block;
-    border: 2px solid #babec1;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-   align-items: center;
-    transform: translate(-78px,-15px);
-    color: gray;
-    
-    
-}
 
 
 
